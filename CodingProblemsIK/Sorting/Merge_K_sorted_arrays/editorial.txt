@@ -1,0 +1,10 @@
+Editorial:
+
+First step is to check if the input is in increasing sorted manner or in decreasing sorted manner. Let's solve it for increasingly sorted input.
+
+A naive approach would be to add all elements to one collection and then sort them out. We can build on our solution following the idea of the naive solution. At any given point of time, the smallest element would be from the pool of candidate smallest elements formed by adding the elements at start of all arrays. When we remove the smallest element from the pool, we will add the next element from that array.
+We can maintain a min priority queue to carry out these operations. For decreasingly sorted manner, maintain a max priority queue.
+
+
+Time Complexity: O(NK*Log(K))
+Space Complexity: O(K + NK)

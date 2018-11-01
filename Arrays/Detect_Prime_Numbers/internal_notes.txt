@@ -1,0 +1,4 @@
+Input format in problem statement describes the input format for the function that students need to complete and not the raw input.  So, raw input format can be described as:
+
+First line contains N the number of elements in the array a.
+Next N lines contains value of each element in array.

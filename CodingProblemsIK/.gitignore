@@ -1,0 +1,8 @@
+a.out
+a.out.dSYM
+*.class
+.idea/
+*.iml
+out/
+Arrays/TEST/
+venv
